@@ -4,49 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site de l'association l'Arbradon">
+    <meta name="description" content="Site de l'association harmonie du vivant">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Evaluation1-HTML</title>
 </head>
 <body>
 <!--commentaire-->
-    <header>
-        <h1>Site de l'harmonie du vivant</h1>
-        <div >
-            <img class="arbre" src="images/arbre.jpg"/>
-        </div> 
-
-        <div>
-             <a href="tel:0600000000">06 85 01 95 49</a>
+    <div class="container-fluid">
+        <header class="row">
+            <div class="logo col-3">
+                <a> <img class="arbre" src="images/arbre.jpg" alt=""></a>
+            </div>
+            <div class="col-7">
+                <h1> Association Harmonie du vivant </h1>
+                <nav class="row">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                        <a class="navbar-brand" href="#">Mon espace personnel</a>
+                        <div class="collapse navbar-collapse">
+        
+                            <!-- Elements du menu -->
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="evenements.html">Les évènements</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Actualités</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Mon espace</a>
+                                </li>
+                            </ul>
+                </nav>    
+            </div>
+            <div class="badge col-2">BADGE</div>
+        </header>
+        <div class="row">
+            
         </div>
-       
-        <div> 
-            <a href="mailto:email@example.com">fab.guillet@yahoo.fr</a>
-        </div>
-        <nav>
-            <ul>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-
-
-
-            </ul>
-
-
-
-        </nav>
-
-
-
-
-
-
+        <section class ="row">
+            <aside class="col-2">ASIDE</aside>
+            <div class="col-10">
+                <div class="row">
+                    <article class="article1 col-3">
+                    <a href="URL">
+                        <img src="https://fakeimg.pl/250x250/" alt="image"
+                    </a>    
+                    </article>
+                    <article class="article2 col-3">ARTICLE2</article>
+                    <article class="article3 col-3">ARTICLE3</article>
+                </div>
+                <article class="article4 row">ARTICLE4</article>
+            </div>
+        </section>
+        <footer class="row">
+            FOOTER
+        </footer>
+    </div>
 
             
-    </header>   
+     
 
  
 

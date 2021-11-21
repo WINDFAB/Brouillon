@@ -1,9 +1,36 @@
-header {
-    background-color: blueviolet;
+.arbre {
+    max-width: 50%;
+	height: auto;
+
+        
 }
 
-.arbre {
-        background-color: blueviolet;
-        max-width:20%;
-        height: auto;
+.badge {
+    background-color:#DA25BE;
+    
 }
+
+nav {
+    height: 80px;
+    background-color: #BEDA25;
+}
+
+aside {
+    height: 1000px;
+    background-color: #25BEDA;
+}
+
+.article1, .article2, .article3 {
+    height: 400px;
+    background-color: rgb(61, 117, 139);
+} 
+
+.article4 {
+    height: 600px;
+    background-color: rgb(61, 139, 78);
+} 
+
+footer {
+    height: 200px;
+    background-color: rgb(61, 117, 139);
+} 
